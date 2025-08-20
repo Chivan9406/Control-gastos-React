@@ -19,7 +19,7 @@ function FilterByCategory() {
             className="bg-slate-100 p-3 flex-1 rounded"
             onChange={handleChange}
           >
-            <option value="">-- Todas las categorías --</option>
+            <option value="">Todas las categorías</option>
             {categories.map(category => (
               <option
                 value={category.id}
